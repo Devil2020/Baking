@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RelativeLayout"
+    android:background="@color/SliderBackground1"
+    >
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/backingicon"
+           android:layout_marginTop="10dp"
+           android:id="@+id/Icon"
+           />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppName"
+        android:textColor="@color/White"
+        android:text="@string/app_name"
+        android:layout_below="@id/Icon"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/AppName"
+    android:layout_marginTop="40dp"
+    android:id="@+id/Detail"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textColor="@color/White"
+    android:textSize="18sp"
+    android:text="Hey , It`s an application for Cooking and make a Sweet kinds of foods , There are a lot of Videos to help you to create your meal and Some of very good steps to do it , I wish it will be Useful for You ."
+    />
+
+</RelativeLayout>

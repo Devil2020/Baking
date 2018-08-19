@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#a92903</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TransplantWhite">#cccccc</color>
+    <color name="White">#ffffff</color>
+    <color name="SliderBackground1Title">#ab5903</color>
+    <color name="SliderBackground1">#fa8304</color>
+    <color name="SliderBackground2">#F26C78</color>
+    <color name="Statebar">#D35E5A</color>
+    <color name="Item1">#FD6F6B</color>
+    <color name="Item2">#6DD8C8</color>
+    <color name="Item3">#895A7E</color>
+    <color name="Item4">#B8EDA7</color>
+    <color name="Toolbar">#fa420f</color>
+</resources>
