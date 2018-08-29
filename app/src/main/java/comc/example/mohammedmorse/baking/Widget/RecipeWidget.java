@@ -1,26 +1,25 @@
-package comc.example.mohammedmorse.baking;
+package comc.example.mohammedmorse.baking.Widget;
 
-import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
-import android.content.Intent;
 import android.widget.RemoteViews;
+
+import comc.example.mohammedmorse.baking.R;
 
 /**
  * Implementation of App Widget functionality.
  */
-public class MenuWidget extends AppWidgetProvider {
+public class RecipeWidget extends AppWidgetProvider {
 
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId) {
 
         CharSequence widgetText = context.getString(R.string.appwidget_text);
         // Construct the RemoteViews object
-        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.menu_widget);
-        Intent intent=new Intent(context,MenuActivity.class);
-        PendingIntent pendingIntent=PendingIntent.getActivity(context,3,intent,PendingIntent.FLAG_UPDATE_CURRENT);
-        views.setOnClickPendingIntent(R.id.widgetImage,pendingIntent);
+        RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.recipe_widget);
+        //views.setTextViewText(R.id.appwidget_text, widgetText);
+
         // Instruct the widget manager to update the widget
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }

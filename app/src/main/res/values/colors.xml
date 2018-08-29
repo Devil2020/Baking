@@ -13,5 +13,9 @@
     <color name="Item2">#6DD8C8</color>
     <color name="Item3">#895A7E</color>
     <color name="Item4">#B8EDA7</color>
+    <color name="Item1more">#fc514c</color>
+    <color name="Item2more">#21c6ad</color>
+    <color name="Item3more">#873374</color>
+    <color name="Item4more">#7be958</color>
     <color name="Toolbar">#fa420f</color>
 </resources>

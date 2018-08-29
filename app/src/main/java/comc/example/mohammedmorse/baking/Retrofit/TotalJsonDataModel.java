@@ -2,6 +2,7 @@ package comc.example.mohammedmorse.baking.Retrofit;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
@@ -16,7 +17,16 @@ import java.util.ArrayList;
 
     "servings": 8,
     "image": ""*/
-public class TotalJsonDataModel {
+public class TotalJsonDataModel implements Serializable {
+    public TotalJsonDataModel(){}
+    public TotalJsonDataModel(TotalJsonDataModel data){
+        this.Name=data.getName();
+        this.Id=data.getId();
+        this.Image=data.getImage();
+        this.IngrediantList=data.getIngrediantList();
+        this.StepsList=data.getStepsList();
+        this.Servings=data.getServings();
+    }
    @SerializedName("id")
     int Id;
     @SerializedName("name")

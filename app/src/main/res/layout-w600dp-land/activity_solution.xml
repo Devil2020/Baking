@@ -13,18 +13,17 @@
         >
     </android.support.v7.widget.Toolbar>
     <FrameLayout
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="match_parent"
-        android:id="@+id/ListFragment"
+        android:id="@+id/DetailFragment"
         android:layout_below="@id/CustomToolbar"
         ></FrameLayout>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/DetailFragment"
-        android:layout_toRightOf="@id/ListFragment"
-        app:layout_constraintLeft_toRightOf="@id/ListFragment"
-        app:layout_constraintTop_toBottomOf="@id/CustomToolbar"
+        android:id="@+id/ListFragment"
+        android:layout_toRightOf="@id/DetailFragment"
+        android:layout_below="@id/CustomToolbar"
         ></FrameLayout>
 
 </RelativeLayout>

@@ -2,6 +2,8 @@ package comc.example.mohammedmorse.baking.Retrofit;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
+
 /**
  * Created by Mohammed Morse on 12/08/2018.
  */
@@ -10,7 +12,7 @@ import com.google.gson.annotations.SerializedName;
         "description": "Recipe Introduction",
         "videoURL": "https://d17h27t6h515a5.cloudfront.net/topher/2017/April/58ffd974_-intro-creampie/-intro-creampie.mp4",
         "thumbnailURL": ""*/
-public class StepsModel {
+public class StepsModel implements Serializable{
     @SerializedName("id")
     int id;
 

@@ -2,11 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="comc.example.mohammedmorse.baking.MyListFragment">
+    tools:context="comc.example.mohammedmorse.baking.MasterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/myRecyclerView"
-        android:elevation="20dp"
-        ></android.support.v7.widget.RecyclerView>
+        android:id="@+id/MasterRecyclerView"
+        />
+
 </FrameLayout>

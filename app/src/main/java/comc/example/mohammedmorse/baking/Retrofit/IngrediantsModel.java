@@ -2,11 +2,13 @@ package comc.example.mohammedmorse.baking.Retrofit;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
+
 /**
  * Created by Mohammed Morse on 12/08/2018.
  */
 
-public class IngrediantsModel {
+public class IngrediantsModel implements Serializable {
     @SerializedName("quantity")
     double Quantity;
 
